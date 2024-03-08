@@ -1,0 +1,47 @@
+[
+    {
+        "keyword": "hello",
+        "text": "Hello! How can I assist you?",
+        "buttons": [
+            { "text": "Product 1", "payload": "product_1", "buttonType": "inlineKeyboard" },
+            { "text": "Product 2", "payload": "product_2", "buttonType": "inlineKeyboard" },
+            { "text": "Service 1", "payload": "service_1", "buttonType": "inlineKeyboard" },
+            { "text": "Service 2", "payload": "service_2", "buttonType": "inlineKeyboard" },
+            { "text": "Visit our website", "url": "https://example.com", "buttonType": "urlButton" },
+            { "text": "Call us", "phoneNumber": "+1234567890", "buttonType": "callButton" },
+            { "text": "Request Contact", "buttonType": "contactRequest" },
+            { "text": "Send Location", "buttonType": "locationRequest" },
+            { "text": "Start Poll", "buttonType": "pollRequest" },
+            { "text": "Request User", "buttonType": "userRequest" },
+            { "text": "Request Bot", "buttonType": "botRequest" },
+            { "text": "Request Group", "buttonType": "groupRequest" },
+            { "text": "Request Channel", "buttonType": "channelRequest" },
+            { "text": "Switch to Chat", "buttonType": "switchToChat", "userId": -1002072372123 },
+            { "text": "Switch to Current Chat", "buttonType": "switchToCurrentChat" },
+            { "text": "Play Game", "buttonType": "game" },
+            { "text": "Pay", "buttonType": "pay" },
+            { "text": "Login", "buttonType": "login" },
+            { "text": "Open Web App", "buttonType": "webApp" }
+        ]
+    },
+    {
+        "keyword": "product_1",
+        "text": "Details about Product 1",
+        "buttons": [{ "text": "Back to main menu", "payload": "hello", "buttonType": "inlineKeyboard" }]
+    },
+    {
+        "keyword": "product_2",
+        "text": "Details about Product 2",
+        "buttons": [{ "text": "Back to main menu", "payload": "hello", "buttonType": "inlineKeyboard" }]
+    },
+    {
+        "keyword": "service_1",
+        "text": "Details about Service 1",
+        "buttons": [{ "text": "Back to main menu", "payload": "hello", "buttonType": "inlineKeyboard" }]
+    },
+    {
+        "keyword": "service_2",
+        "text": "Details about Service 2",
+        "buttons": [{ "text": "Back to main menu", "payload": "hello", "buttonType": "inlineKeyboard" }]
+    }
+]

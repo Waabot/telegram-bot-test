@@ -1,0 +1,162 @@
+[
+    {
+        "keyword": "home",
+        "text": "What would you like to do today?\n\nMonitor\nActive Trades: 0\nDisabled Trades: 0\n\nGod Mode\nActive God Modes: 0\n\nPresale\n\nActive Presales: 0",
+        "buttons": [
+            {
+                "text": "Mastro Sniper Bot",
+                "payload": "null",
+                "buttonType": "inlineKeyboard",
+                "style": 1
+            },
+            {
+                "text": "⚙ Wallets",
+                "payload": "wallets",
+                "buttonType": "inlineKeyboard",
+                "style": 2
+            },
+            {
+                "text": "⚙ Call Channels",
+                "payload": "call_channels",
+                "buttonType": "inlineKeyboard",
+                "style": 2
+            },
+            {
+                "text": "⚙ Presales",
+                "payload": "presales",
+                "buttonType": "inlineKeyboard",
+                "style": 2
+            },
+            {
+                "text": "⚙ Copytrade",
+                "payload": "copytrade",
+                "buttonType": "inlineKeyboard",
+                "style": 2
+            },
+            {
+                "text": "⚙ God Mode",
+                "payload": "god_mode",
+                "buttonType": "inlineKeyboard",
+                "style": 1
+            },
+            {
+                "text": "⭐ Premium ⭐",
+                "payload": "premium",
+                "buttonType": "inlineKeyboard",
+                "style": 2
+            },
+            {
+                "text": "ℹ FAQ",
+                "payload": "faq",
+                "buttonType": "inlineKeyboard",
+                "style": 2
+            }
+        ]
+    },
+    {
+        "keyword": "wallets",
+        "text": "Select target chain:",
+        "buttons": [
+            {
+                "text": "BSC",
+                "payload": "bsc",
+                "buttonType": "inlineKeyboard",
+                "style": 3
+            },
+            {
+                "text": "ETH",
+                "payload": "eth",
+                "buttonType": "inlineKeyboard",
+                "style": 3
+            },
+            {
+                "text": "SOL",
+                "payload": "sol",
+                "buttonType": "inlineKeyboard",
+                "style": 3
+            },
+            {
+                "text": "Back to main menu",
+                "payload": "home",
+                "buttonType": "inlineKeyboard",
+                "style": 1
+            }
+        ]
+    },
+    {
+        "keyword": "bsc,eth,sol",
+        "text": "ℹ️ Connect a wallet to show settings.",
+        "buttons": [
+            {
+                "text": "Connect Wallet",
+                "buttonType": "inlineKeyboard",
+                "payload": "connect_wallet",
+                "style": 2
+            },
+            {
+                "text": "Generate Wallet",
+                "buttonType": "inlineKeyboard",
+                "payload": "generate_wallet",
+                "style": 2
+            },
+            {
+                "text": "Back to main menu",
+                "payload": "home",
+                "buttonType": "inlineKeyboard",
+                "style": 1
+            }
+        ]
+    },
+    {
+        "keyword": "connect_wallet",
+        "text": "What's the private key of this wallet? You may also use a 12-word mnemonic phrase."
+    },
+    {
+        "keyword": "generate_wallet",
+        "text": "✅ Generated new wallet:\n\nChain: BSC\nAddress: 0xA9A0375661Da43Be8245Bf784aB16e772d627c7e\nPK: 0x0c027a6532c2bc631fbbecbdd0e3a9513a6cb9db507c38245ea3f30dfb699f91\nMnemonic: color pool monster struggle search increase gasp twist learn rent virus kangaroo\n\n⚠️ Make sure to save this mnemonic phrase OR private key using pen and paper only. Do NOT copy-paste it anywhere. You could also import it to your Metamask/Trust Wallet. After you finish saving/importing the wallet credentials, delete this message. The bot will not display this information again."
+    },
+    {
+        "keyword": "product_1",
+        "text": "Details about Product 1",
+        "buttons": [
+            {
+                "text": "Back to main menu",
+                "payload": "hello",
+                "buttonType": "inlineKeyboard"
+            }
+        ]
+    },
+    {
+        "keyword": "product_2",
+        "text": "Details about Product 2",
+        "buttons": [
+            {
+                "text": "Back to main menu",
+                "payload": "hello",
+                "buttonType": "inlineKeyboard"
+            }
+        ]
+    },
+    {
+        "keyword": "service_1",
+        "text": "Details about Service 1",
+        "buttons": [
+            {
+                "text": "Back to main menu",
+                "payload": "hello",
+                "buttonType": "inlineKeyboard"
+            }
+        ]
+    },
+    {
+        "keyword": "service_2",
+        "text": "Details about Service 2",
+        "buttons": [
+            {
+                "text": "Back to main menu",
+                "payload": "hello",
+                "buttonType": "inlineKeyboard"
+            }
+        ]
+    }
+]
